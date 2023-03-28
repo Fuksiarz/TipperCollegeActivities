@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recipes">
+
+    <TextView
+        android:id="@+id/recipe1"
+        android:layout_width="411dp"
+        android:layout_height="220dp"
+
+        android:layout_row="0"
+        android:layout_column="1"
+
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/result_background"
+        android:gravity="center"
+        android:padding="@dimen/textview_padding"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="269dp"
+        android:text="Zupa porowa z pieczarkami:
+                    podwójna pierś z kurczaka,
+2 pory,
+10 szt. pieczarek,
+2 duże serki topione śmietankowe (po 100g),
+przywary: liść laurowy, ziele angielskie, pieprz czarny ziarnisty, sól,
+grzanki lub groszek ptysiowy.
+
+" />
+
+
+    <TextView
+        android:id="@+id/recipe2"
+        android:layout_width="411dp"
+        android:layout_height="194dp"
+
+        android:layout_row="2"
+        android:layout_column="1"
+
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/result_background"
+
+        android:gravity="center"
+        android:padding="@dimen/textview_padding"
+        android:text="Składniki na ciasto makowo-kakaowe:
+
+2 szklanki maku
+
+1,5 szklanki cukru pudru
+
+150 g margaryny
+
+100 g miodu
+
+8 jaj
+
+3 czubate łyżki kakao
+
+3 łyżki mąki ziemniaczanej
+
+4 łyżki zmielonych orzechów
+
+1 łyżeczka cynamonu
+
+1 łyżeczka sody"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp"
+
+        />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:text="Back"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="572dp" />
+</GridLayout>

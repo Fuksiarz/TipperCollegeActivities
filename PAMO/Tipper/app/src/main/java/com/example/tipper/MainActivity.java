@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private double weight = 0.0; // bill amount entered by the user
     private double height = 0.0; // bill amount entered by the user
     private int age = 0;
-
+    private Button recipiesButton;
     private TextView weightTextView; // shows formatted bill amount
     private TextView heightTextView; // shows formatted bill amount
     private RadioGroup genderGroup;
@@ -52,6 +52,16 @@ public class MainActivity extends AppCompatActivity {
         totalTextView.setText(currencyFormat.format(0));
         calCalc.setText(currencyFormat.format(0));
 //
+        recipiesButton =(Button) findViewById(R.id.recipesButton);
+        recipiesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent switchActivityIntent = new Intent(MainActivity.this, Recipes.class);
+                startActivity(switchActivityIntent);
+            }
+        });
+
+
         // set amountEditText's TextWatcher
         EditText amountEditText =
                 (EditText) findViewById(R.id.weightEdit);
@@ -194,7 +204,11 @@ public class MainActivity extends AppCompatActivity {
         public void beforeTextChanged(
                 CharSequence s, int start, int count, int after) { }
     };
+    private void switchActivitiesToRecipes() {
+        Intent switchActivityIntent = new Intent(this, Recipes.class);
+        startActivity(switchActivityIntent);
 
+    }
 
 }
 
