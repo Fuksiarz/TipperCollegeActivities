@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Quizz04"
+            android:exported="false" />
+        <activity
+            android:name=".Quizz03"
+            android:exported="false" />
+        <activity
+            android:name=".Quizz02"
+            android:exported="false" />
+        <activity android:name=".Quizz01" />
+        <activity
             android:name=".Recipes"
             android:exported="false" />
         <activity android:name=".hiPage">
@@ -19,7 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

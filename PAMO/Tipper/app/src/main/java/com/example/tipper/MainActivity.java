@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     private double height = 0.0; // bill amount entered by the user
     private int age = 0;
     private Button recipiesButton;
+
+    private Button quizzButton;
     private TextView weightTextView; // shows formatted bill amount
     private TextView heightTextView; // shows formatted bill amount
     private RadioGroup genderGroup;
@@ -57,6 +59,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent switchActivityIntent = new Intent(MainActivity.this, Recipes.class);
+                startActivity(switchActivityIntent);
+            }
+        });
+        quizzButton =(Button) findViewById(R.id.quizzButton);
+        quizzButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent switchActivityIntent = new Intent(MainActivity.this, Quizz01.class);
                 startActivity(switchActivityIntent);
             }
         });
@@ -209,6 +219,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(switchActivityIntent);
 
     }
+    private void switchActivitiesToQuizz01() {
+        Intent switchActivityIntent = new Intent(this, Quizz01.class);
+        startActivity(switchActivityIntent);
+
+    }
+
 
 }
 
