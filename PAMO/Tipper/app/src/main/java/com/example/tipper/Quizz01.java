@@ -15,7 +15,7 @@ public class Quizz01 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quizz01);
-        nextButton = (Button) findViewById(R.id.buttonNextQuestion1);
+        nextButton = (Button) findViewById(R.id.goToMain);
 
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -45,7 +45,7 @@
         android:text="Button4" />
 
     <Button
-        android:id="@+id/buttonNextQuestion1"
+        android:id="@+id/goToMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
