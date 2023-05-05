@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private Button recipiesButton;
 
     private Button quizzButton;
+    private Button addToChart;
+    private Button chart;
     private TextView weightTextView; // shows formatted bill amount
     private TextView heightTextView; // shows formatted bill amount
     private RadioGroup genderGroup;
@@ -62,6 +64,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(switchActivityIntent);
             }
         });
+        addToChart =(Button) findViewById(R.id.addToChart);
+        chart =(Button) findViewById(R.id.chart);
+        chart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent switchActivityIntent = new Intent(MainActivity.this, BmiChart.class);
+                startActivity(switchActivityIntent);
+            }
+        });
+
         quizzButton =(Button) findViewById(R.id.quizzButton);
         quizzButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -22,6 +22,9 @@
             android:name=".Quizz03"
             android:exported="false" />
         <activity
+            android:name=".BmiChart"
+            android:exported="false" />
+        <activity
             android:name=".Quizz02"
             android:exported="false" />
         <activity android:name=".Quizz01" />
