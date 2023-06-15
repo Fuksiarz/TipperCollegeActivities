@@ -13,11 +13,11 @@
     <string name="woman">woman</string>
     <string name="cal">cal</string>
     <string name="what_can_i_eat">what can i eat</string>
-    <string name="question1">Skąd wzięły się jajka po benedyktyńsku?</string>
-    <string name="question2">Z jakiego kraju pochodzi tort Czarny Las?</string>
-    <string name='question3'>Gdzie na kulinarnej mapie świata umieścisz tacos?</string>
-    <string name='question4'>Z jakiego kontynentu pochodzi Pavlova?</string>
-    <string name='question5'>Z jakiej kuchni wywodzi się zupa Tom Kha Gai?</string>
-    <string name='question6'>Skąd pochodzi zupa pho?</string>
+    <string name="question1"> Który z wymienionych olejów zawiera najwięcej kwasów tłuszczowych Ω-3?</string>
+    <string name="question2">Energia zawarta w pożywieniu jest mierzona w:</string>
+    <string name='question3'>W 100g którego z tych warzyw znajdziesz najwięcej żelaza?</string>
+    <string name='question4'>Czym jest laktaza?</string>
+    <string name='question5'>Ostatni posiłek należy jeść najpóźniej...</string>
+    <string name='question6'>Jakie produkty znajdują się na szczycie piramidy żywieniowej?</string>
 
 </resources>

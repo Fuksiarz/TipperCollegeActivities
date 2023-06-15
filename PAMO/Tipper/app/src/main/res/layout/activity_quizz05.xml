@@ -23,27 +23,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z wietnamskiej" />
+        android:text="O godzinie 18" />
 
     <Button
         android:id="@+id/buttonAnswer2Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z tajskiej" />
+        android:text="2-3 godziny przed snem" />
 
     <Button
         android:id="@+id/buttonAnswer3Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Z chińskiej" />
+        android:text="Pół godziny przed snem" />
 
     <Button
         android:id="@+id/buttonAnswer4Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z  japońskiej" />
+        android:text="O godzinie 21" />
 
 
 

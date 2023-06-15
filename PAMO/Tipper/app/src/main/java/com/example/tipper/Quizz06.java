@@ -33,7 +33,7 @@ public class Quizz06 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent switchActivityIntent = new Intent(Quizz06.this, QuizzAnswer.class);
-                switchActivityIntent.putExtra("score", score); // Pass current score
+                switchActivityIntent.putExtra("score", score + 1); // Pass current score
                 startActivity(switchActivityIntent);
             }
         });
@@ -57,7 +57,7 @@ public class Quizz06 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent switchActivityIntent = new Intent(Quizz06.this, QuizzAnswer.class);
-                switchActivityIntent.putExtra("score", score+1); // Pass current score
+                switchActivityIntent.putExtra("score", score); // Pass current score
                 startActivity(switchActivityIntent);
             }
         });

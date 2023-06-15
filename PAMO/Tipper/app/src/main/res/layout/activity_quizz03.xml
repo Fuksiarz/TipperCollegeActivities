@@ -23,27 +23,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="W Chile" />
+        android:text="Szpinak" />
 
     <Button
         android:id="@+id/buttonAnswer2Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="W Meksyku" />
+        android:text="Natka pietruszki" />
 
     <Button
         android:id="@+id/buttonAnswer3Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="W Argentynie" />
+        android:text="Jarmuż" />
 
     <Button
         android:id="@+id/buttonAnswer4Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="W Hiszpanii" />
+        android:text="Czosnek" />
 
 
 

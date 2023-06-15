@@ -23,27 +23,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z Chin" />
+        android:text="Czerwone mięso i tłuszcze nasycone" />
 
     <Button
         android:id="@+id/buttonAnswer2Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z Filipin" />
+        android:text="Nasiona i orzechy" />
 
     <Button
         android:id="@+id/buttonAnswer3Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Z Japonii" />
+        android:text="Drób, jajka i ryby" />
 
     <Button
         android:id="@+id/buttonAnswer4Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z Wietnamu" />
+        android:text="Produkty zbożowe oraz zdrowe tłuszcze nasycone" />
 
 
 </LinearLayout>

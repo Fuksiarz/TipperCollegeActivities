@@ -24,26 +24,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z Litwy" />
+        android:text="Hektopaskalach" />
 
     <Button
         android:id="@+id/buttonAnswer2Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z Francji" />
+        android:text="Kaloriach" />
 
     <Button
         android:id="@+id/buttonAnswer3Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Z Rosji" />
+        android:text="Stopniach" />
 
     <Button
         android:id="@+id/buttonAnswer4Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z Niemiec" />
+        android:text="Kilogramach" />
 
 </LinearLayout>

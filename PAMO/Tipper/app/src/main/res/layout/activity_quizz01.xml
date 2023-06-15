@@ -23,27 +23,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z Anglii" />
+        android:text="Oliwa z oliwek" />
 
     <Button
         android:id="@+id/buttonAnswer2Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z USA" />
+        android:text="Olej rzepakowy" />
 
     <Button
         android:id="@+id/buttonAnswer3Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Z Francji" />
+        android:text="Olej z wątroby rekina" />
 
     <Button
         android:id="@+id/buttonAnswer4Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Z Niemiec" />
+        android:text="Olej lniany" />
 
 
 

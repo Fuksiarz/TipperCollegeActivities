@@ -40,7 +40,7 @@ public class Quizz01 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent switchActivityIntent = new Intent(Quizz01.this, Quizz02.class);
-                switchActivityIntent.putExtra("score", score + 1); // Pass current score
+                switchActivityIntent.putExtra("score", score ); // Pass current score
                 startActivity(switchActivityIntent);
             }
         });
@@ -56,7 +56,7 @@ public class Quizz01 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent switchActivityIntent = new Intent(Quizz01.this, Quizz02.class);
-                switchActivityIntent.putExtra("score", score); // Pass current score
+                switchActivityIntent.putExtra("score", score + 1); // Pass current score
                 startActivity(switchActivityIntent);
             }
         });
