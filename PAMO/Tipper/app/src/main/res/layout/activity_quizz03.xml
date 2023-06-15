@@ -14,6 +14,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="40sp"
 
         android:text="@string/question3"/>
 
@@ -22,34 +23,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Button1" />
+        android:text="W Chile" />
 
     <Button
         android:id="@+id/buttonAnswer2Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Button2" />
+        android:text="W Meksyku" />
 
     <Button
         android:id="@+id/buttonAnswer3Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button3" />
+        android:text="W Argentynie" />
 
     <Button
         android:id="@+id/buttonAnswer4Question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Button4" />
+        android:text="W Hiszpanii" />
 
-    <Button
-        android:id="@+id/goToMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
 
-        android:text="next" />
 
 </LinearLayout>
